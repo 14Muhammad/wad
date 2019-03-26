@@ -1,30 +1,36 @@
 /*
 https://css-tricks.com/
 https://unsplash.com/
+http://paletton.com/
+https://www.toptal.com/designers/subtlepatterns/
+https://specificity.keegan.st/
 */
 
 body {
-    background-image: url(../images/bgimglight.jpg);
-    background-size: cover;
+    background-image: url(../images/crossline-lines.png);
+    /*background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
 }
 h1 {
-    color: red;
+    color: #3C2B74;
     text-align: center;
     border-style: solid;
-    border-width: 2px;
-    border-color: purple;
+    border-width: 6px;
+    border-color: rgba(124, 110, 170, 0.4);
+    cursor: pointer;
 }
 
 header li {
     list-style: none;
+    display: inline-block;
 }
 
+/*
 p {
     color: blue;
 }
 
 p {
     color: green;
-}
+}*/
