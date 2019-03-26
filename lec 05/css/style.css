@@ -1,0 +1,30 @@
+/*
+https://css-tricks.com/
+https://unsplash.com/
+*/
+
+body {
+    background-image: url(../images/bgimglight.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 {
+    color: red;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
+}
+
+header li {
+    list-style: none;
+}
+
+p {
+    color: blue;
+}
+
+p {
+    color: green;
+}
