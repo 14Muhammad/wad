@@ -1,0 +1,24 @@
+.box{
+
+    color: red;
+    border: 5px solid blueviolet;
+    display: inline-block;
+    padding: 20px 50px 5px 25px;
+    margin: 30px;
+
+
+
+}
+
+.highlight{
+    letter-spacing: 5px;
+    word-spacing: 10px;
+  /*  text-decoration: overline;*/
+    font-style: italic;
+    font-weight: bold;
+    font-style: 80%;
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+
+
+}
