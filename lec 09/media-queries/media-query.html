@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Query</title>
+</head>
+<body>
+<h2>Media Queries</h2>
+<p>Media queries can be used to check many things, such as:</p>
+<ul>
+    <li>width and height of the viewport</li>
+    <li>width and height of the device</li>
+    <li>orientation (is the tablet/phone in landscape or portrait mode?)</li>
+    <li>resolution</li>
+</ul>
+<h2>Media Query Syntax</h2>
+<p>A media query consists of a media type and can contain one or more
+    expressions, which resolve to either true or false.</p>
+<div><span style="color:brown"><div>
+@media not|only <i>mediatype </i>and<i> </i> (<i>expressions</i>) <span style="color:black">{</span><span style="color:red"><i><br>&nbsp;&nbsp;&nbsp;
+CSS-Code;<br></i></span><span style="color:black">}</span></div> </span></div>
+<p>The result of the query is
+    true if the specified media type matches the type of device the document is
+    being displayed on and all expressions in the media query are true. When a media query is true, the corresponding style sheet or style rules are
+    applied, following the normal cascading rules.</p>
+<p>Unless you use the not or only operators, the media type is optional and the
+    <code>all</code> type will be implied.</p>
+<p>You can also have different stylesheets for different media:</p>
+<div><div>
+<span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> media<span style="color:mediumblue">="<em>mediatype</em> and|not|only (<em>expressions</em>)"</span>
+href<span style="color:mediumblue">="<em>print.css</em>"</span></span><span style="color:mediumblue">&gt;</span></span></div> </div>
+<h2> Media Types</h2>
+<table border="1">
+    <tbody><tr>
+        <th style="width:25%">Value</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>all</td>
+        <td>Used for all media type devices</td>
+    </tr>
+    <tr>
+        <td>print</td>
+        <td>Used for printers</td>
+    </tr>
+    <tr>
+        <td>screen</td>
+        <td>Used for computer screens, tablets, smart-phones etc.</td>
+    </tr>
+    <tr>
+        <td>speech</td>
+        <td>Used for screenreaders that "reads" the page out loud</td>
+    </tr>
+    </tbody></table>
+</body>
+</html>
