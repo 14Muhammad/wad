@@ -24,3 +24,32 @@ https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg
 https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg
 */
 
+
+h1{
+
+    font-size: 2em;
+    font-family: "Bernard MT Condensed";
+    box-shadow: 6px 4px 5px 7px black;
+    border-bottom: 3px solid black;
+
+    margin: 10px 0 10px 0;
+
+}
+
+img {
+
+    width:450px;
+    height: 250px;
+    border-bottom: black;
+    margin: 10px;
+
+}
+
+.Content{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
