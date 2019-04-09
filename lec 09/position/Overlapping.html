@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Overlapping</title>
+    <style>
+        h1,p {
+            text-shadow: 2px 2px 2px #ffffff;
+            font-size: x-large;
+        }
+        img.cat {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -2;
+        }
+        img.cursor {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<img class="cat" src="cat400x300.jpg" width="400" height="300">
+<img class="cursor" src="cursor-styles.jpg">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+</body>
+</html>

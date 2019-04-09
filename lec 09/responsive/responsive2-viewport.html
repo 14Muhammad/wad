@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viewport</title>
+</head>
+<body>
+<div>
+    <h2>What is The Viewport?</h2>
+    <p>The viewport is the user's visible area of a web page.</p>
+    <p>The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.</p>
+    <p>Before tablets and mobile phones, web pages were designed only for computer screens, and it was common for
+        web pages to have a static design and a fixed size.</p>
+    <p>Then, when we started surfing the internet using tablets and mobile phones, fixed
+        size web pages were too large to fit the viewport.
+        To fix this, browsers on those devices scaled down the entire web page to fit the screen.</p>
+    <p>This was not perfect!! But a quick fix.</p>
+    <hr>
+
+    <h2>Setting The Viewport</h2>
+    <p>HTML5 introduced a method to let web designers take control over the viewport, through the
+        <code>&lt;meta&gt;</code> tag.</p>
+    <p>You should include the following <code>&lt;meta&gt;</code> viewport element in all your web pages:</p>
+    <div class="w3-code w3-border notranslate htmlHigh">
+        <div>
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>meta<span style="color:red"> name<span style="color:mediumblue">="viewport"</span> content<span style="color:mediumblue">="width=device-width, initial-scale=1.0"</span></span><span style="color:mediumblue">&gt;</span></span>
+        </div>
+    </div>
+    <p>A <code>&lt;meta&gt;</code> viewport element gives the browser instructions on how
+        to control the page's dimensions and scaling.</p>
+    <p>The <code>width=device-width</code> part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).</p>
+    <p>The <code>initial-scale=1.0</code> part sets the initial zoom level when the page is first loaded by the browser.</p>
+    <hr>
+    <h2>Size Content to The Viewport</h2>
+    <p>Users are used to scroll websites vertically on both desktop and mobile
+        devices - but not horizontally!</p>
+    <p>So, if the user is forced to scroll horizontally, or zoom out, to see the
+        whole web page it results in a poor user experience.</p>
+    <p>Some additional rules to follow:</p>
+    <p><strong>1. Do NOT use large fixed width elements - </strong>For example, if
+        an image is displayed at a width wider than the viewport it can cause the
+        viewport to scroll horizontally. Remember to adjust this content to fit within
+        the width of the viewport.</p>
+    <p><strong>2. Do NOT let the content rely on a particular viewport width to
+        render well</strong> - Since screen dimensions and width in CSS pixels vary
+        widely between devices, content should not rely on a particular viewport width
+        to render well.</p>
+    <p><strong>3. Use CSS media queries to apply different styling for small and
+        large screens</strong> - Setting large absolute CSS widths for page elements
+        will cause the element to be too wide for the viewport on a smaller device.
+        Instead, consider using relative width values, such as width: 100%. Also, be
+        careful of using large absolute positioning values. It may cause the element to
+        fall outside the viewport on small devices.</p>
+
+</div>
+</body>
+</html>
