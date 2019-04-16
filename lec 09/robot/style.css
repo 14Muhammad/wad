@@ -38,6 +38,12 @@ h1 {
     display: flex;
 }
 
+
+
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
 .left_arm, .right_arm {
     width: 40px;
     height: 125px;
