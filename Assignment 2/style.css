@@ -103,12 +103,27 @@
 }
 
 .element{
-    position: relative;
-    margin-top: 0;
-    left: 0;
-    margin-left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #043464;
     width: 100%;
-    min-width: 980px;
+    padding: 20px;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+
+    text-align: center;
+    line-height: 1.25em;
+
+    line-height: normal;
+    letter-spacing: normal;
+
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
 }
 
 #myBtn {
@@ -124,4 +139,60 @@
 #myBtn:hover {
     background: #ddd;
     color: black;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 300px) {
+    .log{
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.form-gap {
+    padding-top: 70px;
 }
