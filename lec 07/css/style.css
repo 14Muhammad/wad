@@ -1,0 +1,21 @@
+
+
+.box {
+    border: 5px solid blue;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 0 20px;
+    width: 50px;
+    height: 100px;
+}
+
+.highlight {
+    font-size: 150%;
+    word-spacing: 10px;
+    line-height: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 5px;
+}
