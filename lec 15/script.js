@@ -9,3 +9,16 @@ b1.addEventListener("mouseenter",function () {
     console.log("mouse entered !")
 })*/
 
+var button=document.getElementById("enter");
+var ul=document.getElementsByTagName("ul")[0];
+
+button.addEventListener("click",function () {
+    console.log("clicked");
+    var input =document.getElementById("user-input").value;
+
+    var li=document.createElement("li");
+    li.append(document.createTextNode(input.value));
+    ul.append(li);
+    input.value='';
+});
+
