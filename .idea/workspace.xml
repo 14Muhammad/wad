@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e5cd63d-db63-4eb0-9817-bd8ee9cf1ddc" name="Default Changelist" comment="Robot Quiz Solved">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wad-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/bootstrap/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/bootstrap/bs1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/media-queries/media-query.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/media-queries/query1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/media-queries/query2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/position/Overlapping.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/position/absolute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/position/cat400x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/position/cursor-styles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/position/fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/position/relative.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/position/static.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/position/sticky.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/Content-is-like-water.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/display.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/internet_usage_2009_2016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/mobile-first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/mobilefirst-vs-RWD.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/mobilefirst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/responsive1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/responsive2-viewport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/rwd10-display.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/rwd3-grid-view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/rwd4-box-sizing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/rwd5-box-sizing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/rwd6-box-sizing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/rwd7-media-queries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/rwd8-media-queries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/responsive/rwd9-orientation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/robot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 09/robot/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lec 08/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lec 08/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lec 08/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lec 08/index.html" afterDir="false" />
+    <list default="true" id="7e5cd63d-db63-4eb0-9817-bd8ee9cf1ddc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lec 11/class activity/insert_product.html(iPhone 5_SE).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 11/class activity/insert_product.html(iPhone 6_7_8 Plus).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 11/class activity/insert_product.html(iPhone 6_7_8 Plus-landscap).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 11/class activity/lg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 11/class activity/md.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 11/class activity/sm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 11/class activity/xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 11/class activity/xs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/exercise01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/exercise02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/exercise03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/exercise04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/exercise05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/exercise06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/exercise07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/outline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lec 13/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro/admin/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro/admin/insert_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,19 +32,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lec 13/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lec 09/robot/index.html">
+        <entry file="file://$PROJECT_DIR$/lec 13/outline">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lec 09/robot/style.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec 13/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec 13/exercise01">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec 13/exercise07">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -72,11 +75,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lec 09/robot/style.css" />
+        <option value="$PROJECT_DIR$/lec 13/script.js" />
+        <option value="$PROJECT_DIR$/lec 13/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
+    <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -95,13 +100,18 @@
             <path>
               <item name="wad-1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\Asad Ullah Awan\PhpstormProjects\wad-1" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="lec 09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lec 13" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="wad-1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\Asad Ullah Awan\PhpstormProjects\wad-1" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="lec 09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bootstrap" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pro" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wad-1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Asad Ullah Awan\PhpstormProjects\wad-1" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pro" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -141,7 +151,10 @@
       <updated>1554701400134</updated>
       <workItem from="1554701404561" duration="2829000" />
       <workItem from="1554960494514" duration="80000" />
-      <workItem from="1555098517465" duration="745000" />
+      <workItem from="1555098517465" duration="1483000" />
+      <workItem from="1555256862781" duration="727000" />
+      <workItem from="1555609997771" duration="556000" />
+      <workItem from="1555913072498" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="Robot Quiz Solved">
       <created>1555098753686</created>
@@ -150,16 +163,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555098753686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit whole directory">
+      <created>1555099494193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555099494193</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4445000" />
+    <option name="totallyTimeSpent" value="7472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.33927125" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.28421053" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.3222672" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -174,7 +195,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49959514" weight="0.3285968" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -224,7 +245,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Robot Quiz Solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Robot Quiz Solved" />
+    <MESSAGE value="Commit whole directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit whole directory" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lec 08/index.html">
@@ -253,8 +275,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lec 09/robot/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="1547">
           <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 10/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 10/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 09/media-queries/media-query.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 08/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 09/bootstrap/bs1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 10/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 13/outline">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 13/exercise01">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 13/exercise06">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 13/exercise07">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 13/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 13/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
