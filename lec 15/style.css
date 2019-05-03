@@ -17,3 +17,11 @@
             -8px -8px 0 firebrick,
             -30px 20px 40px dimgrey
 }
+
+.done {
+    text-decoration: line-through;
+}
+
+li {
+    cursor: pointer;
+}
