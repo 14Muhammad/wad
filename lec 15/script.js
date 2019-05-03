@@ -15,7 +15,7 @@ var input = document.getElementById("user-input");
 var ul = document.getElementsByTagName("ul")[0];
 var listItems = document.getElementsByTagName("li");
 var deleteButtons = document.getElementsByClassName("del");
-console.log(deleteButtons);
+
 function inputLength(){
     if(input.value.length > 0 )
         return true;
