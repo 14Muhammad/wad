@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Stylish', sans-serif;
+}
+
+body {
+    background-color: #e9ebee;
+}
+
+.wrapper {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+
+#height-switch,#weight-switch {
+    font-size: 20px;
+    color: blue;
+    background-color: transparent;
+    cursor: pointer;
+}
+#height-switch:hover {
+    color: darkblue;
+}
+#weight-switch:hover {
+    color: darkblue;
+}
+
+#calcBMI{
+
+}
+
+.hide {
+    display: none;
+}
+.align-center {
+    text-align: center;
+}
+
+
+.btn {
+    color: white;
+    font-style: italic;
+    background-color: blue;
+    border: 1px solid transparent;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    transition-delay: .5s;
+}
+
+
+img {
+    text-align: center;
+    height: 200px;
+    width: 120px;
+    margin: auto;
+}
+
+
+@media (min-width: 800px) {
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+    .col-1 {width: 8.333333%;}
+    .col-2 {width: 16.666667%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.333333%;}
+    .col-5 {width: 41.666667%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.333333%;}
+    .col-8 {width: 66.666667%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.333333%;}
+    .col-11 {width: 91.666667%;}
+    .col-12 {width: 100%;}
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
