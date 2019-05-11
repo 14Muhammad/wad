@@ -89,6 +89,15 @@ function computeBMI()
 }
 function displayResult(bmiValue, bmiMsg, imgName) {
     /*Code below for Question 3 Part 3 */
+    var fig = document.createElement("figure");
+    var caption = document.createElement("figcaption");
+    caption.innerHTML = un.value + " is " + msg + " with BMI " + bmi;
+    var img = document.createElement("img");
+    img.setAttribute("src","./images/"+imgName+".jpg");
+    img.classList.add("col-3");
+    fig.append(img);
+    fig.append(caption);
+    users.append(fig);
 }
 
 function clearFields() {
