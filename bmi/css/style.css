@@ -62,9 +62,13 @@ body {
     font-style: italic;
     background-color: blue;
     border: 1px solid transparent;
+    transition: background-color 500ms;
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
+}
+.btn:hover {
+    background-color: darkblue;
 }
 
 
