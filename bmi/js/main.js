@@ -9,6 +9,9 @@ var kgInput = document.getElementById("kg");
 var un = document.getElementById("username");
 var users = document.getElementById("users");
 
+function toggleHeightInput(){
+
+}
 
 function toggleWeightInput(){
     pdInput.classList.toggle("hide");
@@ -27,6 +30,10 @@ function getWeightUnit(){
         return "kg";
     return "pd";
 }
+
+hs.addEventListener("click",function () {
+    toggleHeightInput();
+});
 
 /*Code below for Question 3 Part 1 */
 
