@@ -68,6 +68,21 @@ function computeBMI()
     var output =  Math.round(BMI*100)/100;
 
     /*Code below for Question 3 Part 2 */
+    if (output<18.5) {
+        displayResult(output,"Underweight","under");
+    }
+    else  if (output>=18.5 && output<25) {
+        displayResult(output,"Normal","normal");
+    }
+    else   if (output>=25 && output<30) {
+        displayResult(output,"Overweight","over");
+    }
+    else   if (output>=30 && output<40) {
+        displayResult(output,"Obese","obesity");
+    }
+    else if (output>40) {
+        displayResult(output,"Morbid Obese","morbid-obesity");
+    }
 
 
 
