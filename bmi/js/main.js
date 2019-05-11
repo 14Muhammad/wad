@@ -98,8 +98,15 @@ function displayResult(bmiValue, bmiMsg, imgName) {
     fig.append(img);
     fig.append(caption);
     users.append(fig);
+    clearFields();
 }
 
 function clearFields() {
     /*Code below for Question 3 Part 4 */
+    un.value = "";
+    cmInput.value = "";
+    ftInput.value = "";
+    inInput.value = "";
+    pdInput.value = "";
+    kgInput.value = "";
 }
