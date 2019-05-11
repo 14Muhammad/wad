@@ -10,7 +10,10 @@ var un = document.getElementById("username");
 var users = document.getElementById("users");
 
 function toggleHeightInput(){
-
+    inInput.classList.toggle("hide");
+    ftInput.classList.toggle("hide");
+    cmInput.classList.toggle("hide");
+    hs.innerText = hs.innerText === "Switch to centimeters"? "Switch to Ft, in" : "Switch to centimeters";
 }
 
 function toggleWeightInput(){
