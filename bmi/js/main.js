@@ -37,7 +37,9 @@ function getWeightUnit(){
 hs.addEventListener("click",function () {
     toggleHeightInput();
 });
-
+ws.addEventListener("click",function () {
+    toggleWeightInput();
+});
 /*Code below for Question 3 Part 1 */
 
 function computeBMI()
