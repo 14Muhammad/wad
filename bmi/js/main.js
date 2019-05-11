@@ -42,6 +42,10 @@ ws.addEventListener("click",function () {
 });
 /*Code below for Question 3 Part 1 */
 
+btnBMI.addEventListener("click",function () {
+    computeBMI();
+});
+
 function computeBMI()
 {
     var meter = 0;
