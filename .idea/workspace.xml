@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e5cd63d-db63-4eb0-9817-bd8ee9cf1ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lec 11/class activity/insert_product.html(iPhone 5_SE).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 11/class activity/insert_product.html(iPhone 6_7_8 Plus).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 11/class activity/insert_product.html(iPhone 6_7_8 Plus-landscap).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 11/class activity/lg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 11/class activity/md.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 11/class activity/sm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 11/class activity/xl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 11/class activity/xs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 12/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/exercise01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/exercise02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/exercise03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/exercise04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/exercise05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/exercise06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/exercise07" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/outline" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lec 13/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro/admin/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pro/admin/insert_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec 15/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lec 15/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec 15/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lec 15/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,38 +13,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec 15/DOM Selectors">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec 15/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lec 13/script.js">
+        <entry file="file://$PROJECT_DIR$/lec 15/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="141">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lec 13/outline">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lec 13/index.html">
+        <entry file="file://$PROJECT_DIR$/lec 15/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="357">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lec 13/exercise01">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lec 13/exercise07">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -77,6 +60,8 @@
         <option value="$PROJECT_DIR$/lec 09/robot/style.css" />
         <option value="$PROJECT_DIR$/lec 13/script.js" />
         <option value="$PROJECT_DIR$/lec 13/index.html" />
+        <option value="$PROJECT_DIR$/lec 15/style.css" />
+        <option value="$PROJECT_DIR$/lec 15/script.js" />
       </list>
     </option>
   </component>
@@ -90,6 +75,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -100,30 +86,18 @@
             <path>
               <item name="wad-1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\Asad Ullah Awan\PhpstormProjects\wad-1" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="lec 13" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wad-1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Asad Ullah Awan\PhpstormProjects\wad-1" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pro" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wad-1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Asad Ullah Awan\PhpstormProjects\wad-1" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pro" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lec 15" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lec 09/bootstrap/bootstrap.css" />
+    <property name="last_opened_file_path" value="D:/study/WAD/wadData/midtermSolution" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/lec 09/bootstrap/bootstrap.css" />
   </component>
@@ -155,6 +129,9 @@
       <workItem from="1555256862781" duration="727000" />
       <workItem from="1555609997771" duration="556000" />
       <workItem from="1555913072498" duration="1006000" />
+      <workItem from="1556513751992" duration="3731000" />
+      <workItem from="1557428037927" duration="685000" />
+      <workItem from="1558502042192" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="Robot Quiz Solved">
       <created>1555098753686</created>
@@ -170,17 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1555099494193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'remotes/upstream/master'&#10;&#10;# Conflicts:&#10;#&#9;lec 09/robot/style.css">
+      <created>1556513982012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556513982012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7472000" />
+    <option name="totallyTimeSpent" value="12210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.28421053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.29797572" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.3222672" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,7 +229,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Robot Quiz Solved" />
     <MESSAGE value="Commit whole directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit whole directory" />
+    <MESSAGE value="Merge remote-tracking branch 'remotes/upstream/master'&#10;&#10;# Conflicts:&#10;#&#9;lec 09/robot/style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'remotes/upstream/master'&#10;&#10;# Conflicts:&#10;#&#9;lec 09/robot/style.css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lec 08/index.html">
@@ -256,14 +240,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3111" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" />
+    <entry file="file://$USER_HOME$/Downloads/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/lec 09/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -302,16 +280,17 @@
     <entry file="file://$PROJECT_DIR$/lec 10/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lec 13/outline">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lec 13/exercise01">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lec 13/exercise06">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lec 13/exercise07">
+    <entry file="file://$PROJECT_DIR$/lec 13/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 13/outline">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lec 13/index.html">
@@ -321,10 +300,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lec 13/script.js">
+    <entry file="file://$PROJECT_DIR$/lec 13/exercise01">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 13/exercise07">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 15/DOM Selectors">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 15/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 15/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec 15/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
