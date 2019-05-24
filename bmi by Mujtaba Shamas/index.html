@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Body Mass Index Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"> 
+</head>
+<body>
+<div class="wrapper">
+    <h1 class="align-center">Body Mass Index Calculator</h1>
+    <div class="row">
+        <div class="col-2 col-s-4"><label for="name"> Enter your name: </label></div>
+        <div class="col-4 col-s-8"><input type="text" class="w-100" placeholder="Enter your name" id="username"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div><p id="height-switch"> Switch to Ft, in </p></div>
+    </div>
+    <div class="row">
+        <div class="col-2 col-s-4"><label>Enter your height:</label></div>
+        <div class="col-2 col-s-4">
+            <input type="text" class="w-100" id="centimeters" placeholder="centimeters">
+            <input type="text" class="hide w-100" id="feet" placeholder="feet">
+        </div>
+        <div class="col-2 col-s-4"><input type="text" class="hide w-100" id="inches" placeholder="inches"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div><p id="weight-switch"> Switch to Kg </p></div>
+    </div>
+    <div class="row">
+        <div class="col-2 col-s-4"><label>Enter your weight:</label></div>
+        <div class="col-2 col-s-4">
+            <input type="text" class="w-100" id="pounds" placeholder="pounds">
+            <input type="text" class="hide w-100" id="kg" placeholder="kg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2 col-s-4"></div>
+        <div class="col-2 col-s-4"><input type="submit" id="calcBMI" class="btn" value="Calculate BMI"></div>
+    </div>
+    <hr>
+    <div id="users" class="row"></div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

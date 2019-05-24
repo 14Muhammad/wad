@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regular Expressions</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <header class="card-header">
+        <h2> Extract Mobile Numbers </h2>
+    </header>
+    <section class="bg-info py-5">
+        <div class="container">
+            <h4> Question </h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <textarea class="form-control"  id="txtArea" rows="15"  cols="30">
+                        </textarea>
+                    </div>
+                </div>
+                <div class="col-sm-4 rounded">
+                    <input type="button" value="Fetch Numbers"
+                           class="btn btn-dark btn-block"
+                           onclick="processString()">
+                </div>
+                <div class="col-sm-4 rounded">
+                    <textarea class="form-control"  id="resultArea" rows="15"  cols="30">
+
+                        </textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+<script>
+    document.getElementById("txtArea").value =
+        "Mobile Numbers Dictionary" +
+        "\nMatches\n" +
+        "03231212121 | 0345-1234567 | 0345 7654321 | " +
+        "+923212223334 | +92 324-1231231 | +92-3333310333 | " +
+        "+92-333-9876543 | 00923336667770 | 0092333-5551110 " +
+        "| 0092-3332222333 | 0092-333-9875463 | 0092 333 1112228 " +
+        "\nNon-Matches\n" +
+        "3331234567 | 0333-123-4567 | 92513331234567 ";
+    function processString(){
+        // Clear the ResultArea element
+        document.getElementById("resultArea").value = "";
+        // Retrieve the user input from the textArea
+        let inputString = document.getElementById("txtArea").value;
+        // Regular expression should be in 2 forward slashes //
+        // Letter g at the end of the regular expression performs a global match
+        // match() method returns all substrings that match the given regular expression
+        let regex = /.*/g;
+        <!-- Question : Write regular expression above in let regex -->
+        let result = inputString.match(regex);
+        if (result != null) {
+            // Add the retrieved numbers to the textarea element
+            for (let i = 0; i < result.length; i++) {
+                document.getElementById("resultArea").value += result[i] + "\n";
+            }
+        } else {
+            document.getElementById("resultArea").value = 'Result is null';
+        }
+    }
+</script>
+</body>
+</html>
