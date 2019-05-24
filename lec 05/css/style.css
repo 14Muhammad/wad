@@ -9,11 +9,12 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_a
 
 body {
     background-image: url(../images/crossline-lines.png);
+    background-repeat: repeat;
     /*background-size: cover;
     background-repeat: no-repeat;
     background-position: center;*/
 }
-h1 {
+h1:hover{
     color: #3C2B74;
     text-align: center;
     border-style: solid;
@@ -26,6 +27,28 @@ header li {
     list-style: none;
     display: inline-block;
 }
+
+.error{
+    background-color: aqua;
+    cursor: grabbing;
+
+}
+.highlight_text{
+
+   font-size: medium;
+    font-family: "Arial Black";
+    mso-bidi-font-style: italic;
+
+}
+
+#content{
+
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+
+
 
 /*
 p {

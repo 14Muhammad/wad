@@ -11,11 +11,17 @@
 
 .highlight {
     font-size: 150%;
-    word-spacing: 10px;
+    color: antiquewhite;
+    word-spacing: 12px;
     line-height: 50px;
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
-    font-family: 'Caveat', cursive;
+    font-family: "Agency FB";
     letter-spacing: 5px;
+}
+.highlight:hover{
+
+    color: black;
+    cursor: pointer;
 }

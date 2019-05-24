@@ -5,9 +5,7 @@ h1 {
 
 .robots {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 
 .head,
 .left_arm,
@@ -67,7 +65,7 @@ h1 {
     /* This is another useful property. Hmm what do you think it does?*/
     margin: 0 auto;
     display: flex;
-}
+
 
 .left_leg, .right_leg {
     width: 40px;
