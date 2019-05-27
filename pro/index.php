@@ -100,7 +100,7 @@ else
                     $catQueryResult= mysqli_query($con,$catQuery);
                     while($row= mysqli_fetch_assoc($catQueryResult))
                     {
-                        $title=$row['barndTitle'];
+                        $title=$row['brandTitle'];
                         echo '<li><a class=\'nav-link\'  href=\'#\'>'.$title.'</a></li>';
                     }
                     ?>
