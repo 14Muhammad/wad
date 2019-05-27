@@ -17,7 +17,22 @@
             -8px -8px 0 firebrick,
             -30px 20px 40px dimgrey
 }
-.done
-{
+
+.done {
     text-decoration: line-through;
+}
+
+li {
+    cursor: pointer;
+}
+
+.del {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz-3 Regular Expressions</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        input[id="nic"]:invalid {
+            background-color: #ff7260;
+        }
+    </style>
+</head>
+<body>
+    <header class="card-header">
+        <h2> Quiz 05 </h2>
+    </header>
+    <section class="bg-light py-5">
+        <div class="container">
+            <h4> REGEX </h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="nic">National Identity Card</label>
+                        <input type="text"
+                               title="Enter Valid National Identity Card Number"
+                               class="form-control" id="nic" placeholder="NIC" required
+                               pattern="\s*(\d){5}(_|-|(\s{0,3}))?[0-9+]{7}(_|-|(\s{0,3}))?[0-9]{1}\s*">
+                        <!-- Question 01 : Write regular expression above in pattern attribute -->
+                    </div>
+                    <ul>
+                        <li> Multiple spaces are allowed in the start/end </li>
+                        <li> Maximum 1 dash(-) or 1 underscore(_) is allowed in between NIC (not both together) </li>
+                        <li> Maximum 3 spaces are allowed in between NIC (not together with dash or underscore) </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 rounded">
+                    <h3>Matches</h3>
+                    <ul class="list-group-flush">
+                        <li> <pre>1234512345671</pre></li>
+                        <li> <pre>12345 1234567 1</pre></li>
+                        <li> <pre>12345-1234567-1</pre></li>
+                        <li> <pre>12345_1234567_1</pre></li>
+                        <li> <pre>123451234567-1</pre></li>
+                        <li> <pre>12345   1234567-1</pre></li>
+                        <li> <pre>       12345-1234567_1        </pre></li>
+                        <li> <pre>12345   1234567-1</pre></li>
+                        <li> <pre>     12345-1234567   1    </pre></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 bg-warning rounded">
+                    <h3>Non-Matches</h3>
+                    <ul>
+                        <li> <pre>12345-_1234567_1</pre></li>
+                        <li> <pre>12345 1234567 12</pre></li>
+                        <li> <pre>1234 51234567 1</pre></li>
+                        <li> <pre>12345.1234567.1</pre></li>
+                        <li> <pre>12345    1234567 1</pre></li>
+                        <li> <pre>12345 12E4567 1</pre></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
