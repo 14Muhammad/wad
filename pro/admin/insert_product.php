@@ -17,8 +17,8 @@ if(isset($_POST['insert_pro'])){
 
 
 
-    $insert_product = "insert into products (pro_cat, pro_brand,pro_title,pro_price,pro_desc,pro_image,pro_keywords) 
-                  VALUES ('$pro_cat','$pro_brand','$pro_title','$pro_price','$pro_desc','$pro_image','$pro_keywords');";
+    $insert_product = "insert into products (pro_cat, pro_brand,pro_title,pro_price,pro_desc,pro_keywords) 
+                  VALUES ('$pro_cat','$pro_brand','$pro_title','$pro_price','$pro_desc','$pro_keywords');";
     $insert_pro = mysqli_query($con, $insert_product);
     if($insert_pro){
         header("location: ".$_SERVER['PHP_SELF']);
