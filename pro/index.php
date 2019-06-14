@@ -82,11 +82,11 @@ else
                         echo '<li><a class=\'nav-link\'  href=\'#\'>'.$title.'</a></li>';
                     }
                     ?>
-                    <!--                    <li><a class='nav-link'  href='#'>Laptops</a></li>-->
-                    <!--                    <li><a class='nav-link'  href='#'>Computers</a></li>-->
-                    <!--                    <li><a class='nav-link'  href='#'>Mobiles</a></li>-->
-                    <!--                    <li><a class='nav-link'  href='#'>Watches</a></li>-->
-                    <!--                    <li><a class='nav-link'  href='#'>Cameras</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>Laptops</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>Computers</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>Mobiles</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>Watches</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>Cameras</a></li>-->
                 </ul>
             </li>
             <li class="active">
@@ -100,15 +100,15 @@ else
                     $catQueryResult= mysqli_query($con,$catQuery);
                     while($row= mysqli_fetch_assoc($catQueryResult))
                     {
-                        $title=$row['barndTitle'];
+                        $title=$row['brandTitle'];
                         echo '<li><a class=\'nav-link\'  href=\'#\'>'.$title.'</a></li>';
                     }
                     ?>
-                    <!--                    <li><a class='nav-link'  href='#'>HP</a></li>-->
-                    <!--                    <li><a class='nav-link'  href='#'>DELL</a></li>-->
-                    <!--                    <li><a class='nav-link'  href='#'>APPLE</a></li>-->
-                    <!--                    <li><a class='nav-link'  href='#'>SAMSUNG</a></li>-->
-                    <!--                    <li><a class='nav-link'  href='#'>SONY</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>HP</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>DELL</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>APPLE</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>SAMSUNG</a></li>-->
+<!--                    <li><a class='nav-link'  href='#'>SONY</a></li>-->
                 </ul>
             </li>
             <li>
@@ -128,19 +128,19 @@ else
     <article id="content" class="container-fluid bg-white">
 
         <div class="row">
-            Coming Soon
+                Coming Soon
         </div>
     </article>
 
 
 </div>
 <footer class="container-fluid">
-    <div class="row">
-        <div class="col text-center">
-            &copy; 2019 by Muhammad Ali Makhdoom
+        <div class="row">
+            <div class="col text-center">
+               &copy; 2019 by Muhammad Ali Makhdoom
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 </body>
