@@ -95,19 +95,7 @@ require "server/functions.php";
     </nav>
     <article id="content" class="container-fluid bg-white">
         <div class="row">
-
-            <div class='col-sm-6 col-md-4 col-lg-3 text-center product-summary'>
-                <h5 class='text-capitalize'> MAC Book i7 </h5>
-                <img src='admin/product_images/apple-imac-mid-2010-27.jpg'>
-                <p> <b> Rs 230000/-  </b> </p>
-                <a href='#' class='btn btn-info btn-sm'>Details</a>
-                <a href='#'>
-                    <button class='btn btn-primary btn-sm'>
-                        <i class='fas fa-cart-plus'></i> Add to Cart
-                    </button>
-                </a>
-            </div>
-
+            <?php getPro(); ?>
         </div>
     </article>
 
