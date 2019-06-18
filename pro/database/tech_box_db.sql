@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 11, 2019 at 01:50 PM
+-- Generation Time: Jun 18, 2019 at 08:37 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.1
 
@@ -21,6 +21,25 @@ SET time_zone = "+00:00";
 --
 -- Database: `tech_box_db`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admins`
+--
+
+CREATE TABLE `admins` (
+  `user_id` int(10) NOT NULL,
+  `user_email` varchar(255) NOT NULL,
+  `user_pass` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `admins`
+--
+
+INSERT INTO `admins` (`user_id`, `user_email`, `user_pass`) VALUES
+(1, 'wad@ucp', '123');
 
 -- --------------------------------------------------------
 
@@ -109,6 +128,12 @@ INSERT INTO `products` (`pro_id`, `pro_cat`, `pro_brand`, `pro_title`, `pro_pric
 --
 
 --
+-- Indexes for table `admins`
+--
+ALTER TABLE `admins`
+  ADD PRIMARY KEY (`user_id`);
+
+--
 -- Indexes for table `brands`
 --
 ALTER TABLE `brands`
@@ -131,6 +156,12 @@ ALTER TABLE `products`
 --
 
 --
+-- AUTO_INCREMENT for table `admins`
+--
+ALTER TABLE `admins`
+  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `brands`
 --
 ALTER TABLE `brands`
@@ -146,7 +177,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `pro_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `pro_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
