@@ -1,4 +1,8 @@
 <?php
+session_start();
+if(!isset($_SESSION['user_email'])){
+    header('location: login.php?not_admin=You are not Admin!');
+}
 require_once "db_connection.php";
 ?>
 <!DOCTYPE html>
@@ -69,7 +73,7 @@ require_once "db_connection.php";
                     <i class="fa fa-credit-card"></i> View Payments</a>
             </li>
             <li>
-                <a href="#">
+                <a href="logout.php">
                     <i class="fa fa-sign-out-alt"></i> Admin logout</a>
             </li>
         </ul>

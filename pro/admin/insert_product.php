@@ -1,10 +1,7 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "tech_box_db");
-if (!$con)
-    die("Connection failed");
-?>
-<?php
-
+if(!isset($_SESSION['user_email'])){
+    header('location: login.php?not_admin=You are not Admin!');
+}
 
 if (isset($_POST['insert_pro'])) {
     //getting text data from the fields
