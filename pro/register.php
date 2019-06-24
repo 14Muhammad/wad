@@ -11,6 +11,18 @@ require "server/functions.php";
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Old+Standard+TT">
+    <script>
+        function checkEmail(email) {
+            var xmlhttp  = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if(this.readyState === 4 && this.status === 200){
+                    document.getElementById("hint").innerHTML = this.responseText;
+                }
+            }
+            xmlhttp.open("GET","check_email.php?e=" + email);
+            xmlhttp.send();
+        }
+    </script>
 </head>
 <body>
 
@@ -117,7 +129,7 @@ require "server/functions.php";
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-at"></i></div>
                         </div>
-                        <input type="text" class="form-control" id="c_email" name="c_email" placeholder="Enter your email"
+                        <input type="text" class="form-control" id="c_email" name="c_email" placeholder="Enter your email" onkeyup="checkEmail(this.value)"
                                >
                         <span class="text-danger" id="hint"></span>
                     </div>
