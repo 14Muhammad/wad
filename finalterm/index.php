@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FBR Tax Collector Pakistan 2019 - 2020</title>
+    <title>Tax Calculator Pakistan 2019 - 2020</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,20 +32,19 @@
             <div class="col-sm-12 col-lg-9">
                 <h3>Filter Valid Employees </h3>
                 <p class="lead">Tax Collector Pakistan 2019 - 2020</p>
-                <!--Question 1: Part 01:  Write the code below accordingly-->
-                <form>
+                <form action="" method="post">
                     <div class="form-row">
                         <div class="col-md-12">
                             <textarea class="form-control"
                                       placeholder="Copy Employees data from 'data.txt' file and paste here to collect Tax ..."
-                                      id="data" name="data" rows="16"></textarea>
+                                      id="data" name="data" rows="16"><?php echo @$_COOKIE['employee'];?></textarea>
                         </div>
                     </div>
                     <input type="submit" value="Filter" id="filter" name="filter" class="btn btn-dark btn-block btn-lg">
                 </form>
             </div>
             <div class="col-lg-3 d-none d-lg-block align-self-center">
-                <img src="img/FBR-Logo.png" alt="FBR" class="img-fluid">
+                <img src="img/FBR-Logo.png" alt="Army" class="img-fluid">
             </div>
         </div>
     </div>
@@ -73,17 +72,114 @@
                         </thead>
                         <tbody>
                         <?php
-                        /*
-                         Question 1: Part 2 , 3:
-                         Question 2: Part 1:
-                         Write the code below accordingly
-                        */
-
-
+                        $total_yearly_tax_collected = 0;
+                        if(isset($_POST['filter'])){
+                            $data = $_POST['data'];
+                            $pattern = "/\d+\s([a-zA-Z]+((\.|\s|\.\s|-)[a-zA-Z]+)*)\s(\d{5}-?\d{7}-?\d)\s(\d+(,\d+)*(\.\d+)?)\s~/";
+                            if(preg_match_all($pattern, $data, $matches_out))
+                            {
+                                setcookie("employee",$data,time()+(60*60*3));
+                                for($i=0;$i<count($matches_out[1]);$i++){
+                                    ?>
+                                    <tr>
+                                        <td><?php echo $matches_out[1][$i]?></td>
+                                        <td><?php echo $matches_out[4][$i]?></td>
+                                        <td><?php echo number_format(str_replace(",","",$matches_out[5][$i]));?>/-</td>
+                                        <td><?php echo number_format(str_replace(",","",$matches_out[5][$i])*12);?>/-</td>
+                                        <td><?php echo getTaxRate(str_replace(",","",$matches_out[5][$i]));?>%</td>
+                                        <td><?php echo number_format(getYearlyTax(str_replace(",","",$matches_out[5][$i]))/12);?>/-</td>
+                                        <td><?php
+                                            $total_yearly_tax_collected += getYearlyTax(str_replace(",","",$matches_out[5][$i]));
+                                            echo number_format(getYearlyTax(str_replace(",","",$matches_out[5][$i])));?>/-</td>
+                                    </tr>
+                                    <?php
+                                }
+                            }
+                        }
+                        function getYearlyTax($m_salary){
+                            $y_salary = $m_salary*12;
+                            if($y_salary<=600000){
+                                return 0;
+                            }else if($y_salary>600000 && $y_salary <= 1200000){
+                                return ($y_salary-600000)*0.05;
+                            }
+                            else if($y_salary>1200000 && $y_salary <= 1800000){
+                                return (($y_salary-1200000)*0.1) + 30000;
+                            }
+                            else if($y_salary>1800000 && $y_salary <= 2500000){
+                                return (($y_salary-1800000)*0.15) + 90000;
+                            }
+                            else if($y_salary>2500000 && $y_salary <= 3500000){
+                                return (($y_salary-2500000)*0.175) + 195000;
+                            }
+                            else if($y_salary>3500000 && $y_salary <= 5000000){
+                                return (($y_salary-3500000)*0.2) + 370000;
+                            }
+                            else if($y_salary>5000000 && $y_salary <= 8000000){
+                                return (($y_salary-5000000)*0.225) + 660000;
+                            }
+                            else if($y_salary>8000000 && $y_salary <= 12000000){
+                                return (($y_salary-8000000)*0.25) + 1345000;
+                            }
+                            else if($y_salary>12000000 && $y_salary <= 30000000){
+                                return (($y_salary-12000000)*0.275) + 2345000;
+                            }
+                            else if($y_salary>30000000 && $y_salary <= 50000000){
+                                return (($y_salary-30000000)*0.3) + 7295000;
+                            }
+                            else if($y_salary>50000000 && $y_salary <= 75000000){
+                                return (($y_salary-50000000)*0.322) + 13295000;
+                            }
+                            else if($y_salary>75000000){
+                                return (($y_salary-75000000)*0.35) + 21420000;
+                            }
+                        }
+                        function getTaxRate($m_salary){
+                            $y_salary = $m_salary*12;
+                            if($y_salary<=600000){
+                                return 0;
+                            }else if($y_salary>600000 && $y_salary <= 1200000){
+                                return 5;
+                            }
+                            else if($y_salary>1200000 && $y_salary <= 1800000){
+                                return 10;
+                            }
+                            else if($y_salary>1800000 && $y_salary <= 2500000){
+                                return 15;
+                            }
+                            else if($y_salary>2500000 && $y_salary <= 3500000){
+                                return 17.5;
+                            }
+                            else if($y_salary>3500000 && $y_salary <= 5000000){
+                                return 20;
+                            }
+                            else if($y_salary>5000000 && $y_salary <= 8000000){
+                                return 22.5;
+                            }
+                            else if($y_salary>8000000 && $y_salary <= 12000000){
+                                return 25;
+                            }
+                            else if($y_salary>12000000 && $y_salary <= 30000000){
+                                return 27.5;
+                            }
+                            else if($y_salary>30000000 && $y_salary <= 50000000){
+                                return 30;
+                            }
+                            else if($y_salary>50000000 && $y_salary <= 75000000){
+                                return 32.2;
+                            }
+                            else if($y_salary>75000000){
+                                return 35;
+                            }
+                        }
                         ?>
                         </tbody>
                         <tfoot>
-                        <!--Question 2: Part 02:  Write the code below accordingly-->
+                        <tr>
+                            <td colspan="5">Total Tax Collected </td>
+                            <td><?php echo number_format($total_yearly_tax_collected/12); ?>/-</td>
+                            <td><?php echo number_format($total_yearly_tax_collected); ?>/-</td>
+                        </tr>
                         </tfoot>
                     </table>
                 </div>
