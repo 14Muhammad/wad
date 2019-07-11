@@ -1,8 +1,8 @@
 <?php
-require_once "server/db_connection.php";
-$email = $_GET['e'];
-$sel_email = "select * from customers where cust_email = '$email'";
-$sel_result = mysqli_query($con,$sel_email);
-if(mysqli_num_rows($sel_result) > 0){
-    echo "<i> Already Taken </i>";
-}
+require "server/functions.php";
+$e = $_REQUEST["e"];
+$sel_email = "select * from customers where cust_email= '$e'";
+$run_email  = mysqli_query($con,$sel_email);
+$count = mysqli_num_rows($run_email);
+if($count>0)
+    echo "Already registered";
